@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Player Lite Fm</title>
+  <link rel="stylesheet" href="css/lite.css">
+  <link rel="apple-touch-icon" sizes="any" href="img/fav/apple-icon.png">
+  <link rel="icon" type="image/png" sizes="any" href="img/fav/apple-icon.png">
+  <meta name="msapplication-TileImage" content="img/fav/apple-icon.png">
+  <meta property="og:url" content="/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Player Lite Fm">
+  <meta property="og:description" content="Rádio Online, Ouvir músicas, 24/7">
+  <meta property="og:image" content="img/fav/apple-icon.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="/">
+  <meta property="twitter:url" content="/">
+  <meta name="twitter:title" content="Player Lite Fm">
+  <meta name="twitter:description" content="Rádio Online, Ouvir músicas, 24/7">
+  <link rel="manifest" href="manifest.json">
+</head>
+
+<body>
+
+  <div class="player1">
+    <div class="branding">Player Lite - 3</div>
+    <img alt="Song Artwork" class="artwork" id="track-cover" src="img/fav/apple-icon.png">
+    <div class="player-info">
+      <div class="controls">
+        <div style="display:block;">
+
+          <div id="title" title="Share My radio">
+            <div id="social">
+              <button title="Share on Facebook" class="share__link  share__link--facebook">
+                <img id="mr" src="img/ic/facebook.svg">
+              </button>
+
+              <button title="Share on Twitter" class="share__link  share__link--twitter">
+                <img id="mr" src="img/ic/x.svg">
+              </button>
+
+              <button title="Share on E-mail" class="share__link  share__link--mail">
+                <img id="mr" src="img/ic/email.svg">
+              </button>
+
+              <button title="Share on WhatsApp" class="share__link  share__link--whatsapp">
+                <img id="mr" src="img/ic/wts.svg">
+              </button>
+            </div>
+          </div>
+          <div class="player">
+            <div id="cnp" class="audio"><button id="playpause" class="play"></button>
+              <div id="volume" class="volume v-speak"><button onclick="mute()">
+                  <img class="v-speak" src="img/ic/v-s.svg">
+                  <img class="v-mute" src="img/ic/v-m.svg">
+                </button>
+                <div id="vslider"><input class="slider" id="vmslider" type="range" min="0" max="100" value="43" step="1"
+                    title="10 %"></div>
+              </div>
+            </div><audio id="audio" controls="" src="https://stream.zeno.fm/2pelvwye4cctv"
+              style="display:none;"></audio>
+          </div>
+        </div>
+      </div>
+      <script src="js/player.js"></script>
+    </div>
+</body>
+
+</html>

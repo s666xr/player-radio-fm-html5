@@ -1,0 +1,30 @@
+{
+    "name": "Rádio Sound",
+    "short_name": "Sound",
+    "scope": "/",
+    "start_url": "/",
+    "orientation": "portrait-primary",
+    "background_color": "#101015",
+    "theme_color": "#101015",
+    "display": "standalone",
+    "description": "Ouça as rádios online da Rádio Sound, com diversos estilos de música para você escolher",
+    "lang": "pt-br",
+    "icons": [
+      {
+        "src": "/img/fav/apple-icon.png",
+        "sizes": "any",
+        "type": "image/png",
+        "purpose": "any maskable"
+      }
+    ],
+    "related_applications": [
+      {
+        "platform": "web",
+        "url": "https://radiosoundfm.com.br"
+      },
+      {
+        "platform": "play",
+        "url": "https://play.google.com/store/apps/details?id=br.00121212&pli=1"
+      }
+    ]
+  }
