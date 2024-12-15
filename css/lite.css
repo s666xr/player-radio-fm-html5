@@ -6,13 +6,6 @@
   transition:background-color .3s;
   position:relative;
 }
-.branding {
-  position:absolute;
-  top:12px;
-  font-size:2rem;
-  display: none;
-  left: 52%;
-}
 
 .artwork {
   width:200px;
